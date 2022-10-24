@@ -1,0 +1,69 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+geometry1.Exit()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="General Materials",
+    Source="General_Materials.xml")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.ImportMaterial(
+    Name="Stainless Steel",
+    Source="General_Materials.xml")
+material1 = engineeringData1.GetMaterial(Name="Structural Steel")
+material1.SetSuppression(Suppressed=True)
+material1.SetSuppression(Suppressed=False)
+matl1.SetSuppression(Suppressed=True)
+matl1.SetSuppression(Suppressed=False)
+material1.SetSuppression(Suppressed=True)
+modelComponent1.Refresh()
+model1.Edit()
+unitSystem1 = SetProjectUnitSystem(UnitSystemName="NMMTON_STANDARD")
+library2 = EngData.OpenLibrary(
+    Name="ANSYS GRANTA Materials Data for Simulation (Sample)",
+    Source="Granta_Design_Typical_Materials.xml")
+library3 = EngData.OpenLibrary(
+    Name="Explicit Materials",
+    Source="Explicit_Materials.xml")
+matl2 = engineeringData1.ImportMaterial(
+    Name="TITANIUM",
+    Source="Explicit_Materials.xml")
+model1.Exit()
+modelComponent1.Refresh()
+model1.Edit()
+matl1.SetSuppression(Suppressed=True)
+model1.Exit()
+modelComponent1.Refresh()
+model1.Edit()
+geometry1.Edit()
+geometry1.Exit()
+matl1.SetSuppression(Suppressed=False)
+material1.SetSuppression(Suppressed=False)
+model1.Exit()
+modelComponent1.Refresh()
+model1.Edit()
+library4 = EngData.OpenLibrary(
+    Name="Additive Manufacturing Materials",
+    Source="Additive_Manufacturing_Materials.xml")
+library5 = EngData.OpenLibrary(
+    Name="Geomechanical Materials",
+    Source="GeoMechanical_Materials.xml")
+library6 = EngData.OpenLibrary(
+    Name="Composite Materials",
+    Source="Composite_Materials.xml")
+library7 = EngData.OpenLibrary(
+    Name="Fluid Materials",
+    Source="Fluid_Materials.xml")
+model1.Exit()
+Save(Overwrite=True)

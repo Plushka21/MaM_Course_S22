@@ -1,0 +1,2178 @@
+    *-------------------------------------------------------------*
+    |                                                             |
+    |  W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M |
+    |                                                             |
+    *-------------------------------------------------------------*
+    ***************************************************************
+    *                  ANSYS 2022 R1 LEGAL NOTICES                *
+    ***************************************************************
+    *                                                             *
+    * Copyright 2022 SAS IP, Inc.  All rights reserved.           *
+    * Unauthorized use, distribution or duplication is            *
+    * prohibited.                                                 *
+    * ANSYS is a registered trademark of ANSYS, Inc or its        *
+    * subsidiaries in the United States or other countries.       *
+    *                                                             *
+    * ANSYS, Inc. is UL registered                                *
+    * ISO 9001:2008 Companies.                                    *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+    * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+    * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+    * The software products and documentation are furnished by    *
+    * ANSYS, Inc. or its subsidiaries under a software license    *
+    * agreement that contains provisions concerning               *
+    * non-disclosure, copying, length and nature of use,          *
+    * compliance with exporting laws, warranties, disclaimers,    *
+    * limitations of liability, and remedies, and other           *
+    * provisions.  The software products and documentation may be *
+    * used, disclosed, transferred, or copied only in accordance  *
+    * with the terms and conditions of that software license      *
+    * agreement.                                                  *
+    *                                                             *
+    * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+    * documentation CD for the complete Legal Notice.             *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * This product is subject to US laws governing export and     *
+    * re-export.                                                  *
+    *                                                             *
+    * For U.S. Government users, except as specifically granted   *
+    * by the ANSYS, Inc. software license agreement, the use,     *
+    * duplication, or disclosure by the United States Government  *
+    * is subject to restrictions stated in the ANSYS, Inc.        *
+    * software license agreement and FAR 12.212 (for non-DOD      *
+    * licenses).                                                  *
+    *                                                             *
+    ***************************************************************
+    Version No 22,2021,319,1
+
+    Loading Contact Model
+    Model Contains 3 contact pairs and 6 bodies
+    Finished Loading Contact Model
+    _____
+    Loading Geometry
+    Resuming geometry file
+    6 bodies to read
+    1 / 6 - Spur Gear (40 teeth)\Body1
+    2 / 6 - Component3\Body1
+    3 / 6 - Component4\Body1
+    4 / 6 - Component5\Body1
+    5 / 6 - Simplified_Platform v1\Body1
+    6 / 6 - Knife\Body1
+    Preparing Contact Regions
+    Region Contact Region 7
+    Contact Detection Method: Geometry Based
+    Region Contact Region 10
+    Contact Detection Method: Geometry Based
+    Region Contact Region 2
+    Contact Detection Method: Geometry Based
+    Finished Loading Geometry
+    _____
+    Validating the model
+    Validation Performed
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+    Region: Component4\Body1 - Knife\Body1 -  Touching...
+    Number Of Points  57
+
+
+
+End of Contact. CPU Time 956.469 Elapsed Time 243.55
+
+Contact Run Completed
+

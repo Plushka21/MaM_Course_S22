@@ -1,0 +1,32 @@
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       11:47:55
+
+ *** WARNING ***                         CP =       0.484   TIME= 11:47:56
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.484   TIME= 11:47:56
+ MPC184 elements are being used in the current analysis and the          
+ NLGEOM,ON command has not been used.  Thus, only linearized behavior    
+ will be considered.  If finite rotation and large deflection effects    
+ are to be considered, please use the NLGEOM,ON command.                 
+
+ *** WARNING ***                         CP =       0.484   TIME= 11:47:56
+ Material number 11 (used by element 2049) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       0.484   TIME= 11:47:56
+ No constraints have been defined using the D command.                   
+
+ *** WARNING ***                         CP =       0.547   TIME= 11:47:56
+ Overconstraint may occur for Lagrange multiplier or MPC based contact   
+ algorithm.                                                              
+
+ *** WARNING ***                         CP =       0.547   TIME= 11:47:56
+ Certain contact elements (for example 2458 & 2427) overlap with other.  
+
+ *** WARNING ***                         CP =       1.031   TIME= 11:47:56
+ Pivoting has been activated for the Distributed Sparse Matrix Solver .  
+ The memory required may greatly exceed the predicted amount.  In that   
+ event, use the DSPOPTION command to change the memory mode and/or       
+ memory size used by the Distributed Sparse Matrix Solver.               

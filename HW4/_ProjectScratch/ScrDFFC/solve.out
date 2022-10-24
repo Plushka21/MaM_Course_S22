@@ -1,0 +1,271 @@
+    *-------------------------------------------------------------*
+    |                                                             |
+    |  W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M |
+    |                                                             |
+    *-------------------------------------------------------------*
+    ***************************************************************
+    *                  ANSYS 2022 R1 LEGAL NOTICES                *
+    ***************************************************************
+    *                                                             *
+    * Copyright 2022 SAS IP, Inc.  All rights reserved.           *
+    * Unauthorized use, distribution or duplication is            *
+    * prohibited.                                                 *
+    * ANSYS is a registered trademark of ANSYS, Inc or its        *
+    * subsidiaries in the United States or other countries.       *
+    *                                                             *
+    * ANSYS, Inc. is UL registered                                *
+    * ISO 9001:2008 Companies.                                    *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+    * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+    * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+    * The software products and documentation are furnished by    *
+    * ANSYS, Inc. or its subsidiaries under a software license    *
+    * agreement that contains provisions concerning               *
+    * non-disclosure, copying, length and nature of use,          *
+    * compliance with exporting laws, warranties, disclaimers,    *
+    * limitations of liability, and remedies, and other           *
+    * provisions.  The software products and documentation may be *
+    * used, disclosed, transferred, or copied only in accordance  *
+    * with the terms and conditions of that software license      *
+    * agreement.                                                  *
+    *                                                             *
+    * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+    * documentation CD for the complete Legal Notice.             *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * This product is subject to US laws governing export and     *
+    * re-export.                                                  *
+    *                                                             *
+    * For U.S. Government users, except as specifically granted   *
+    * by the ANSYS, Inc. software license agreement, the use,     *
+    * duplication, or disclosure by the United States Government  *
+    * is subject to restrictions stated in the ANSYS, Inc.        *
+    * software license agreement and FAR 12.212 (for non-DOD      *
+    * licenses).                                                  *
+    *                                                             *
+    ***************************************************************
+    Version No 22,2021,319,1
+
+
+    Ansys Mechanical Enterprise
+
+    ______________________________________________________________________________________________________________________________
+    Initializing transient simulation
+
+
+
+    Position correction is enabled.
+    Velocity correction is enabled.
+    Correction uses Pure Kinematic.
+    Assembly uses Inertia Matrix.
+
+
+    Creating Internal Loads
+    Creating Flexible Bodies Internal Drivers
+    Updating Loads and Drivers Based On Internal Joint Representation
+    Updating Stops Based On Internal Joint Representation
+    Creating Stops Contact Points
+    Updating Relations Based On Internal Joint Representation
+    Initializing Transient Analysis
+
+    ______________________________________________________________________________________________________________________________
+    Starting assembly simulation
+
+    Convergence reached after 1 Iteration
+
+
+    Analysis of model redundancies:
+    Joint Revolute - C1 To C2 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 
+ 
+
+    _________________________________________________________________________
+    Starting transient simulation
+
+    Using Runge-Kutta 4 time integration
+
+    Model Summary:
+
+    Number of effective bodies: 5
+    Total Number of Joints: 5 (4 based on degrees of freedom, 1 based on constraint equations)
+        4 Joints of Type Revolute
+        1 Joint of Type Weld
+
+    Number of Physical Degrees of Freedom: 3
+
+    _________________________________________________________________________
+
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value -1.889474e-17 Bound 8.726646e-01 0 Points  Contact radius = 1.803463e-08
+
+    Time:      0 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotational Acceleration ( Load Step 0 )" is active
+ 
+
+    End of Transient Initialization
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:      0 s Current time step 0.01 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value -1.889474e-17 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.01 s Current time step 0.02 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.000000e-05 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.03 s Current time step 0.04 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.000000e-05 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.07 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.900000e-04 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.12 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.440000e-03 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.17 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.890000e-03 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.22 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.840000e-03 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.27 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 7.290000e-03 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.32 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.024000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.37 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.369000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.42 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.764000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.47 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.209000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.52 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.704000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.57 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 3.249000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.62 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 3.844000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.67 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.489000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.72 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 5.184000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.77 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 5.929000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.82 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 6.724000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.87 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 7.569000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.92 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 8.464000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.97 s Current time step 0.03 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.409000e-02 Bound 8.726646e-01 0 Points 
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+
+    ______________________________________________________________________________________________________________________________
+
+    Total number of time steps: 22
+    Average time step: 0.0454545
+
+    Number of rejected time steps: 0
+    Number of discontinuities: 0
+    Number of saved transient configurations: 23
+    Maximum relative error: 2.53427e-06 (%)
+    Number of position correction iterations: 23
+    Number of velocity correction steps: 22
+
+    End of Transient Simulation. CPU Time 0.03125 Elapsed Time 0.035
+
+
+    ______________________________________________________________________________________________________________________________
+
+    Analysis of model redundancies:
+    Joint Revolute - C1 To C2 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 

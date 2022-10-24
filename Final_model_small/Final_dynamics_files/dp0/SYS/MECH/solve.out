@@ -1,0 +1,2476 @@
+    *-------------------------------------------------------------*
+    |                                                             |
+    |  W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M |
+    |                                                             |
+    *-------------------------------------------------------------*
+    ***************************************************************
+    *                  ANSYS 2022 R1 LEGAL NOTICES                *
+    ***************************************************************
+    *                                                             *
+    * Copyright 2022 SAS IP, Inc.  All rights reserved.           *
+    * Unauthorized use, distribution or duplication is            *
+    * prohibited.                                                 *
+    * ANSYS is a registered trademark of ANSYS, Inc or its        *
+    * subsidiaries in the United States or other countries.       *
+    *                                                             *
+    * ANSYS, Inc. is UL registered                                *
+    * ISO 9001:2008 Companies.                                    *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+    * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+    * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+    * The software products and documentation are furnished by    *
+    * ANSYS, Inc. or its subsidiaries under a software license    *
+    * agreement that contains provisions concerning               *
+    * non-disclosure, copying, length and nature of use,          *
+    * compliance with exporting laws, warranties, disclaimers,    *
+    * limitations of liability, and remedies, and other           *
+    * provisions.  The software products and documentation may be *
+    * used, disclosed, transferred, or copied only in accordance  *
+    * with the terms and conditions of that software license      *
+    * agreement.                                                  *
+    *                                                             *
+    * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+    * documentation CD for the complete Legal Notice.             *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * This product is subject to US laws governing export and     *
+    * re-export.                                                  *
+    *                                                             *
+    * For U.S. Government users, except as specifically granted   *
+    * by the ANSYS, Inc. software license agreement, the use,     *
+    * duplication, or disclosure by the United States Government  *
+    * is subject to restrictions stated in the ANSYS, Inc.        *
+    * software license agreement and FAR 12.212 (for non-DOD      *
+    * licenses).                                                  *
+    *                                                             *
+    ***************************************************************
+    Version No 22,2021,319,1
+
+
+    Ansys Mechanical Enterprise
+
+    ______________________________________________________________________________________________________________________________
+    Initializing transient simulation
+
+
+
+    Position correction is enabled.
+    Velocity correction is enabled.
+    Correction uses Pure Kinematic.
+    Assembly uses Inertia Matrix.
+
+
+    Creating Internal Loads
+    Creating Flexible Bodies Internal Drivers
+    Updating Loads and Drivers Based On Internal Joint Representation
+    Updating Stops Based On Internal Joint Representation
+    Creating Stops Contact Points
+    Updating Relations Based On Internal Joint Representation
+    Initializing Transient Analysis
+
+    ______________________________________________________________________________________________________________________________
+    Starting assembly simulation
+
+    Convergence reached after 1 Iteration
+
+
+    Analysis of model redundancies:
+    Joint Revolute - Spur Gear (40 teeth)\Body1 To Component3\Body1 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+    Joint Revolute - Simplified_Platform v1\Body1 To Component5\Body1 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 
+ 
+
+    _________________________________________________________________________
+    Starting transient simulation
+
+    Using Runge-Kutta 4 time integration
+
+    Model Summary:
+
+    Number of effective bodies: 10
+    Total Number of Joints: 11 (9 based on degrees of freedom, 2 based on constraint equations)
+        7 Joints of Type Revolute
+        4 Joints of Type Weld
+
+    Number of Physical Degrees of Freedom: 5
+
+    _________________________________________________________________________
+
+    Contact Region 7 is open. Contact radius = 1.522072e-06
+    Contact Region 10 is open. Contact radius = 4.386621e-07
+    Contact Region 2 is open. Contact radius = 5.360070e-07
+
+    Time:      0 s - Status of loads and joint conditions
+     - Load "Remote Force ( Load Step 0 )" is active
+     - Load "Remote Force ( Load Step 0 )" is active
+     - Load "Remote Force ( Load Step 0 )" is active
+     - Joint Condition "Joint - Rotational Velocity ( Load Step 0 )" is active
+ 
+
+    End of Transient Initialization
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:      0 s Current time step 0.01 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.01 s Current time step 0.0188796 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.02888 s Current time step 0.0288274 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.05771 s Current time step 0.0393686 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.09708 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.1471 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.1971 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.2471 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.2971 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.3471 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.3971 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.4471 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.4971 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.5471 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.5971 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.6471 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.6971 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.7471 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.7971 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.8471 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.8971 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.9471 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time: 0.9971 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.047 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.097 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.147 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.197 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.247 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.297 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.347 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.397 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.447 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.497 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.547 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.597 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.647 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.697 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.747 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.797 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.847 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.897 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.947 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  1.997 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.047 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.097 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.147 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.197 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.247 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.297 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.347 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.397 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.447 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.497 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.547 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.597 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.647 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.697 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.747 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.797 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.847 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.897 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.947 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.997 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.047 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.097 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.147 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.197 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.247 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.297 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.347 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.397 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.447 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.497 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.547 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.597 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.647 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.697 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.747 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.797 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.847 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.897 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.947 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.997 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.047 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.097 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.147 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.197 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.247 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.297 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.347 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.397 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.447 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.497 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.547 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.597 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.647 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.697 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.747 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.797 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.847 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.897 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.947 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  4.997 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.047 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.097 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.147 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.197 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.247 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.297 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.347 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.397 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.447 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.497 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.547 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.597 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.647 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.697 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.747 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.797 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.847 s Current time step 0.025 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.872 s Current time step 0.0317203 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.904 s Current time step 0.0400102 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.944 s Current time step 0.0450031 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  5.989 s Current time step 0.0464663 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  6.035 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  6.085 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  6.135 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  6.185 s Current time step 0.05 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  6.235 s Current time step 0.0447245 s
+    Contact Region 7 is open.
+    Contact Region 10 is open.
+    Contact Region 2 is open.
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 7" not active (57 points received)
+    _____________________________________________________________
+    Contact "Contact Region 10" not active (0 points received)
+    _____________________________________________________________
+    Contact "Contact Region 2" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+
+    Total number of time steps: 129
+    Average time step: 0.0486822
+
+    Number of rejected time steps: 0
+    Number of discontinuities: 0
+    Number of saved transient configurations: 130
+    Maximum relative error: 0.0101084 (%)
+    Number of position correction iterations: 134
+    Number of velocity correction steps: 130
+
+    End of Transient Simulation. CPU Time 12.7813 Elapsed Time 241.087
+
+
+    ______________________________________________________________________________________________________________________________
+
+    Analysis of model redundancies:
+    Joint Revolute - Spur Gear (40 teeth)\Body1 To Component3\Body1 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+    Joint Revolute - Simplified_Platform v1\Body1 To Component5\Body1 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 

@@ -1,0 +1,1774 @@
+    *-------------------------------------------------------------*
+    |                                                             |
+    |  W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M |
+    |                                                             |
+    *-------------------------------------------------------------*
+    ***************************************************************
+    *                  ANSYS 2022 R1 LEGAL NOTICES                *
+    ***************************************************************
+    *                                                             *
+    * Copyright 2022 SAS IP, Inc.  All rights reserved.           *
+    * Unauthorized use, distribution or duplication is            *
+    * prohibited.                                                 *
+    * ANSYS is a registered trademark of ANSYS, Inc or its        *
+    * subsidiaries in the United States or other countries.       *
+    *                                                             *
+    * ANSYS, Inc. is UL registered                                *
+    * ISO 9001:2008 Companies.                                    *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+    * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+    * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+    * The software products and documentation are furnished by    *
+    * ANSYS, Inc. or its subsidiaries under a software license    *
+    * agreement that contains provisions concerning               *
+    * non-disclosure, copying, length and nature of use,          *
+    * compliance with exporting laws, warranties, disclaimers,    *
+    * limitations of liability, and remedies, and other           *
+    * provisions.  The software products and documentation may be *
+    * used, disclosed, transferred, or copied only in accordance  *
+    * with the terms and conditions of that software license      *
+    * agreement.                                                  *
+    *                                                             *
+    * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+    * documentation CD for the complete Legal Notice.             *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * This product is subject to US laws governing export and     *
+    * re-export.                                                  *
+    *                                                             *
+    * For U.S. Government users, except as specifically granted   *
+    * by the ANSYS, Inc. software license agreement, the use,     *
+    * duplication, or disclosure by the United States Government  *
+    * is subject to restrictions stated in the ANSYS, Inc.        *
+    * software license agreement and FAR 12.212 (for non-DOD      *
+    * licenses).                                                  *
+    *                                                             *
+    ***************************************************************
+    Version No 22,2021,319,1
+
+
+    Ansys Mechanical Enterprise
+
+    ______________________________________________________________________________________________________________________________
+    Initializing transient simulation
+
+
+
+    Position correction is enabled.
+    Velocity correction is enabled.
+    Correction uses Pure Kinematic.
+    Assembly uses Inertia Matrix.
+
+
+    Creating Internal Loads
+    Creating Flexible Bodies Internal Drivers
+    Updating Loads and Drivers Based On Internal Joint Representation
+    Updating Stops Based On Internal Joint Representation
+    Creating Stops Contact Points
+    Updating Relations Based On Internal Joint Representation
+    Initializing Transient Analysis
+
+    ______________________________________________________________________________________________________________________________
+    Starting assembly simulation
+
+    Convergence reached after 1 Iteration
+
+
+    Analysis of model redundancies:
+    Joint Revolute - C1 To C2 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 
+ 
+
+    _________________________________________________________________________
+    Starting transient simulation
+
+    Using Runge-Kutta 4 time integration
+
+    Model Summary:
+
+    Number of effective bodies: 5
+    Total Number of Joints: 5 (4 based on degrees of freedom, 1 based on constraint equations)
+        4 Joints of Type Revolute
+        1 Joint of Type Weld
+
+    Number of Physical Degrees of Freedom: 3
+
+    _________________________________________________________________________
+
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value -1.889474e-17 Bound 1.029744e+00 0 Points  Contact radius = 1.803463e-08
+    No Separation - C1 To C3 is open. Contact radius = 2.175987e-06
+
+    Time:      0 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotational Acceleration ( Load Step 0 )" is active
+ 
+
+    End of Transient Initialization
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:      0 s Current time step 0.01 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value -1.889474e-17 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (6 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (5 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.01 s Current time step 0.02 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.000000e-05 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (5 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (5 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.03 s Current time step 0.04 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.000000e-05 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (5 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (5 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.07 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.900000e-04 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (5 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (5 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.12 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.440000e-03 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (5 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (5 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.17 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.890000e-03 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (5 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (3 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.22 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.840000e-03 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (3 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (3 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.27 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 7.290000e-03 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (3 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (6 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.32 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.024000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (6 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (6 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.37 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.369000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (6 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.42 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.764000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.47 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.209000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.52 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.704000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.57 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 3.249000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.62 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 3.844000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.67 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.489000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.72 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 5.184000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.77 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 5.929000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.82 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 6.724000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.87 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 7.569000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.92 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 8.464000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.97 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.409000e-02 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.02 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.040400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.07 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.144900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.12 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.254400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.17 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.368900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.22 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.488400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.27 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.612900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.32 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.742400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.37 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.876900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.42 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.016400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.47 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.160900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.52 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.310400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.57 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.464900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.62 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.624400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.67 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.788900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.72 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 2.958400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.77 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 3.132900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.82 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 3.312400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.87 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 3.496900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.92 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 3.686400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.97 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 3.880900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.02 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.080400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.07 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.284900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.12 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.494400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.17 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.708900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.22 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 4.928400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.27 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 5.152900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.32 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 5.382400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.37 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 5.616900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.42 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 5.856400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.47 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 6.100900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.52 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 6.350400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.57 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 6.604900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.62 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 6.864400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.67 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 7.128900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.72 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 7.398400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.77 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 7.672900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.82 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 7.952400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.87 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 8.236900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.92 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 8.526400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.97 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 8.820900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   3.02 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.120400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   3.07 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.424900e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   3.12 s Current time step 0.05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.734400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   3.12 s Current time step 0.025 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.734400e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.145 s Current time step 0.0294835 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.891025e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.145 s Current time step 0.0147417 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.891025e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   3.16 s Current time step 0.0171434 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 9.983968e-01 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.177 s Current time step 0.0219214 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.009260e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.177 s Current time step 0.0109607 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.009260e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.188 s Current time step 0.0124234 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.016236e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.188 s Current time step 0.00621169 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.016236e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.194 s Current time step 0.00699382 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.020200e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.201 s Current time step 0.00782715 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.024673e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.201 s Current time step 0.00391358 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.024673e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.205 s Current time step 0.00428831 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.027180e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 1
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.204965e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.205 s Current time step 0.00142944 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.027180e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.206 s Current time step 0.00185567 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.028096e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.208 s Current time step 0.00218886 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029287e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 2
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208250e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.208 s Current time step 0.000729622 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029287e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 3
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208250e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.208 s Current time step 0.000243207 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029287e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.208 s Current time step 0.000486414 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029443e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 4
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208493e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.208 s Current time step 0.000162138 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029443e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 0.000324276 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029547e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 5
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208655e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 0.000108092 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029547e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 0.000216184 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029616e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 6
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208764e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 7.20614e-05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029616e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 0.000144123 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029663e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 7
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208836e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 4.80409e-05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029663e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 9.60819e-05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029693e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 8
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208884e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 3.20273e-05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029693e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 6.40546e-05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029714e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 9
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208916e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 2.13515e-05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029714e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 4.2703e-05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029728e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 10
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208937e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 1.42343e-05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029728e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 2.84687e-05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029737e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 11
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208951e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 9.48957e-06 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029737e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 1.89791e-05 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029743e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 12
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208961e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 6.32638e-06 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029743e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 13
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208961e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 2.10879e-06 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029743e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 4.21758e-06 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029744e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 14
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208963e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 1.40586e-06 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029744e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 15
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208963e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 4.68621e-07 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029744e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 16
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    State inconsistency at time 3.208963e+00. The solution has been restarted.
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  3.209 s Current time step 1.56207e-07 s
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is open. Current DOF Value 1.029744e+00 Bound 1.029744e+00 0 Points 
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" not active (1 points received)
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+
+    Time:  3.209 s Solving Shock 17
+
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Time:  3.209 s Processing Event "Maximum Bound on Joint Revolute - Base To C1"
+    Stopped Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 at 3.20896
+    Stop Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0 on Joint Revolute - Base To C1 is closed.
+    No Separation - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Lock Maximum Bound on Joint Revolute - Base To C1, DOF 0" Received 1 contact points
+    Error : state inconsistency, no relevant contact point for an active/impacting contact pair. Try reducing the time step
+    _____________________________________________________________
+    Contact "No Separation - C1 To C3" not active (0 points received)
+    Error found at time 3.208963e+00
+
+
+    Solution terminated before normal completion
+
+
+    ______________________________________________________________________________________________________________________________
+
+    Total number of time steps: 100
+    Average time step: 0.0305616
+
+    Number of rejected time steps: 5
+    Number of discontinuities: 17
+    Number of saved transient configurations: 101
+    Maximum relative error: 0.00439013 (%)
+    Number of position correction iterations: 126
+    Number of velocity correction steps: 110
+
+    End of Transient Simulation. CPU Time 5.03125 Elapsed Time 6.062
+
+
+    ______________________________________________________________________________________________________________________________
+
+    Analysis of model redundancies:
+    Joint Revolute - C1 To C2 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 

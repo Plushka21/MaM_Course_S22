@@ -1,0 +1,1203 @@
+    *-------------------------------------------------------------*
+    |                                                             |
+    |  W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M |
+    |                                                             |
+    *-------------------------------------------------------------*
+    ***************************************************************
+    *                  ANSYS 2022 R1 LEGAL NOTICES                *
+    ***************************************************************
+    *                                                             *
+    * Copyright 2022 SAS IP, Inc.  All rights reserved.           *
+    * Unauthorized use, distribution or duplication is            *
+    * prohibited.                                                 *
+    * ANSYS is a registered trademark of ANSYS, Inc or its        *
+    * subsidiaries in the United States or other countries.       *
+    *                                                             *
+    * ANSYS, Inc. is UL registered                                *
+    * ISO 9001:2008 Companies.                                    *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+    * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+    * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+    * The software products and documentation are furnished by    *
+    * ANSYS, Inc. or its subsidiaries under a software license    *
+    * agreement that contains provisions concerning               *
+    * non-disclosure, copying, length and nature of use,          *
+    * compliance with exporting laws, warranties, disclaimers,    *
+    * limitations of liability, and remedies, and other           *
+    * provisions.  The software products and documentation may be *
+    * used, disclosed, transferred, or copied only in accordance  *
+    * with the terms and conditions of that software license      *
+    * agreement.                                                  *
+    *                                                             *
+    * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+    * documentation CD for the complete Legal Notice.             *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * This product is subject to US laws governing export and     *
+    * re-export.                                                  *
+    *                                                             *
+    * For U.S. Government users, except as specifically granted   *
+    * by the ANSYS, Inc. software license agreement, the use,     *
+    * duplication, or disclosure by the United States Government  *
+    * is subject to restrictions stated in the ANSYS, Inc.        *
+    * software license agreement and FAR 12.212 (for non-DOD      *
+    * licenses).                                                  *
+    *                                                             *
+    ***************************************************************
+    Version No 22,2021,319,1
+
+
+    Ansys Mechanical Enterprise
+
+    ______________________________________________________________________________________________________________________________
+    Initializing transient simulation
+
+
+
+    Position correction is enabled.
+    Velocity correction is enabled.
+    Correction uses Pure Kinematic.
+    Assembly uses Inertia Matrix.
+
+
+    Creating Internal Loads
+    Creating Flexible Bodies Internal Drivers
+    Updating Loads and Drivers Based On Internal Joint Representation
+    Updating Stops Based On Internal Joint Representation
+    Creating Stops Contact Points
+    Updating Relations Based On Internal Joint Representation
+    Initializing Transient Analysis
+
+    ______________________________________________________________________________________________________________________________
+    Starting assembly simulation
+
+    Convergence reached after 1 Iteration
+
+
+    Analysis of model redundancies:
+    Joint Revolute - C1 To C2 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 
+ 
+
+    _________________________________________________________________________
+    Starting transient simulation
+
+    Using Runge-Kutta 4 time integration
+
+    Model Summary:
+
+    Number of effective bodies: 5
+    Total Number of Joints: 5 (4 based on degrees of freedom, 1 based on constraint equations)
+        4 Joints of Type Revolute
+        1 Joint of Type Weld
+
+    Number of Physical Degrees of Freedom: 3
+
+    _________________________________________________________________________
+
+    Frictionless - C1 To C3 is open. Contact radius = 2.170173e-06
+
+    Time:      0 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotational Acceleration ( Load Step 0 )" is active
+ 
+
+    End of Transient Initialization
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:      0 s Current time step 0.01 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.01 s Current time step 0.02 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.03 s Current time step 0.04 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.07 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.12 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.17 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.22 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.27 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.32 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.37 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.42 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.47 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.52 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.57 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.62 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.67 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.72 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.77 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.82 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.87 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.92 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   0.97 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.02 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.07 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.12 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.17 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.22 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.27 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.32 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.37 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.42 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.47 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.52 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.57 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.62 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.67 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.72 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.77 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.82 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.87 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.92 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   1.97 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.02 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.07 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.12 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.17 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.22 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.27 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.32 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.37 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.42 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.47 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.52 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.57 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.62 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.67 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.72 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.77 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.82 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.87 s Current time step 0.05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.87 s Current time step 0.025 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.895 s Current time step 0.0298998 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.895 s Current time step 0.0149499 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.91 s Current time step 0.0172538 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.927 s Current time step 0.0206343 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.927 s Current time step 0.0103171 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.938 s Current time step 0.0117873 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.938 s Current time step 0.00589364 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.943 s Current time step 0.00656368 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.95 s Current time step 0.00759219 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:   2.95 s Current time step 0.00379609 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.954 s Current time step 0.00409599 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.958 s Current time step 0.00529997 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.958 s Current time step 0.00264999 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.961 s Current time step 0.0028903 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.961 s Current time step 0.00144515 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.962 s Current time step 0.00151021 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.963 s Current time step 0.00157581 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.963 s Current time step 0.000787904 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.964 s Current time step 0.000816481 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.965 s Current time step 0.000821312 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.966 s Current time step 0.00105438 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.966 s Current time step 0.000487909 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.966 s Current time step 0.000243955 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.967 s Current time step 0.000247461 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.967 s Current time step 0.000123731 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.967 s Current time step 0.000131855 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.967 s Current time step 0.000135222 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.967 s Current time step 6.7611e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.967 s Current time step 7.47595e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.967 s Current time step 7.89441e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.967 s Current time step 8.03746e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 4.01873e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 4.39913e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 4.60901e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 4.66322e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.33161e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.52942e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.6314e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.64734e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.32367e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.4239e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.47144e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.47249e-05 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 7.36245e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 7.85462e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 8.06363e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 4.03182e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 4.4696e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 4.7299e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 4.82442e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.41221e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.64989e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.78431e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.8238e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.4119e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.53824e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.60578e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.62008e-06 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 8.10039e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 8.75659e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 9.08481e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 9.12043e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 4.56021e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 4.89207e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 5.04468e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.52234e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.81425e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 2.99317e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 3.06541e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.5327e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.69385e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.7882e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+    Current Time:  2.968 s Current time step 1.82049e-07 s
+    Frictionless - C1 To C3 is open.
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+*** Error:
+     The time step required for the stability of the time integration is less than the minimum time step
+0 C_Environment::GenerateTimeStepTooSmallError(), C:\ANSYSDev\TFSAgent\_work\5\s\CodeDV\MotionSolver\MSolverLib\C_MSolverStatus.cpp line 713
+
+0 C_Environment::GenerateTimeStepTooSmallError(), C:\ANSYSDev\TFSAgent\_work\5\s\CodeDV\MotionSolver\MSolverLib\C_MSolverStatus.cpp line 713
+
+
+*** Error:
+     Check your model for bad units, high spring stiffnesses, small mass and small inertia parts
+0 C_Environment::GenerateTimeStepTooSmallError(), C:\ANSYSDev\TFSAgent\_work\5\s\CodeDV\MotionSolver\MSolverLib\C_MSolverStatus.cpp line 713
+
+0 C_Environment::GenerateTimeStepTooSmallError(), C:\ANSYSDev\TFSAgent\_work\5\s\CodeDV\MotionSolver\MSolverLib\C_MSolverStatus.cpp line 713
+
+    _____________________________________________________________
+    Contact "Frictionless - C1 To C3" not active (0 points received)
+
+    ______________________________________________________________________________________________________________________________
+
+    Total number of time steps: 126
+    Average time step: 0.021985
+
+    Number of rejected time steps: 9
+    Number of discontinuities: 0
+    Number of saved transient configurations: 126
+    Maximum relative error: 0.0134077 (%)
+    Number of position correction iterations: 137
+    Number of velocity correction steps: 125
+
+    End of Transient Simulation. CPU Time 5.42188 Elapsed Time 6.368
+
+
+    ______________________________________________________________________________________________________________________________
+
+    Analysis of model redundancies:
+    Joint Revolute - C1 To C2 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 
